@@ -1,4 +1,5 @@
-# HoroscopeFinder
+# Horoscope Finder
+
 ```md
 GIVEN I need my zodiac sign to find my daily horoscope
 WHEN I open the application "HoroscopeFinder"
