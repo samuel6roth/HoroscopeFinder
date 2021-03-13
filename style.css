@@ -1,0 +1,20 @@
+h2 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    border: 2px solid rgb(136, 136, 136);
+    background-color: rgb(169, 172, 172);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    border: 2px solid rgb(136, 136, 136);
+    background-color: rgb(138, 145, 145);
+}
+
+html{
+    background: rgb(252,231,70);
+    background: radial-gradient(circle, rgba(252,231,70,1) 35%, rgba(58,126,50,1) 45%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
