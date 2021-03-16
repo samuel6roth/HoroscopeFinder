@@ -1,13 +1,3 @@
-//Select date from Calendar
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.datepicker');
-    var instances = M.Datepicker.init(elems,)
-    console.log(elems)
-  });
-//========================
-
-  
-
 /**
  * Return zodiac sugn by month and day
  *
@@ -81,3 +71,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.datepicker');
     var instances = M.Datepicker.init(elems);
   });
+ 
+  var today = moment();
+  $("#today").text(today.format("MMM Do, YYYY"));
