@@ -78,4 +78,10 @@ figure:hover+span {
 	text-decoration: none;
   }
 
-  
+  #today {
+	  text-align: center;
+	  font-size: 35px;
+	  border: solid 3px;
+	  margin-left: 50px;
+	  margin-right: 50px;
+  }
