@@ -38,6 +38,7 @@ h2 span {
 	transition: .3s ease-in-out;
 	opacity: 0;
 	white-space: nowrap;
+=======
 }
 
 img{
@@ -81,4 +82,11 @@ figure:hover+span {
   .bottom{
 	border-bottom: 2px solid rgb(110, 110, 110);
 	padding-bottom: 2%;
+
+  #today {
+	  text-align: center;
+	  font-size: 35px;
+	  border: solid 3px;
+	  margin-left: 50px;
+	  margin-right: 50px;
   }
