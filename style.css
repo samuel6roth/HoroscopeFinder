@@ -28,15 +28,17 @@ h2 span {
 	position: absolute;
 	bottom: -10px;
 	text-align: center;
-	left: 50%;
+	left: 5%;
 	display: block;
 	width: 10px;
 	color: rgb(252, 252, 252);
-	font-size: 18px;
+	font-size: 1vw;
 	text-decoration: none;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	opacity: 0;
+	white-space: nowrap;
+=======
 }
 
 img{
@@ -51,7 +53,6 @@ figure:hover+span {
 	position: absolute;
 }
 
-  /***** Pulse *****/
   .pulse a:hover{ 
 	animation: pulse 1s infinite;
 	animation-timing-function: linear;   
@@ -77,6 +78,10 @@ figure:hover+span {
 	display: block;
 	text-decoration: none;
   }
+
+  .bottom{
+	border-bottom: 2px solid rgb(110, 110, 110);
+	padding-bottom: 2%;
 
   #today {
 	  text-align: center;
