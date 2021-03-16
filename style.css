@@ -1,20 +1,84 @@
-h2 {
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    border: 2px solid rgb(136, 136, 136);
-    background-color: rgb(169, 172, 172);
-}
-
 h1 {
     color: rgb(0, 0, 0);
     text-transform: uppercase;
-    border: 2px solid rgb(136, 136, 136);
-    background-color: rgb(138, 145, 145);
+    text-align:center;
+	border-bottom: 2px solid rgb(136, 136, 136);
 }
 
-html{
-    background: rgb(252,231,70);
-    background: radial-gradient(circle, rgba(252,231,70,1) 35%, rgba(58,126,50,1) 45%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+h2 span {
+	color: #aaa;
+	font-size: 85%;
 }
+
+.sign::after {
+	content: '';
+	clear: both;
+}
+
+.sign div {
+	position: relative;
+	float: left;
+	padding: 0;
+}
+
+.sign div:first-child {
+	margin-left: 0;
+}
+.sign div span {
+	position: absolute;
+	bottom: -10px;
+	text-align: center;
+	left: 5%;
+	display: block;
+	width: 10px;
+	color: rgb(252, 252, 252);
+	font-size: 1vw;
+	text-decoration: none;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+	white-space: nowrap;
+}
+
+img{
+    width: 50%;
+	height: 50%;
+	z-index:-10;
+}
+
+figure:hover+span {
+	opacity: 1;
+	font-size: 2rem;
+	position: absolute;
+}
+
+  .pulse a:hover{ 
+	animation: pulse 1s infinite;
+	animation-timing-function: linear;   
+  }
+  
+  @keyframes pulse {
+	0% { transform: scale(1.5); }
+	50% { transform: scale(1.8);}
+	100% { transform: scale(1.5); }
+	}
+  
+  body {
+	margin:3%;
+	background: rgb(43,43,43);
+	background: linear-gradient(0deg, rgba(43,43,43,1) 0%, rgba(195,195,195,1) 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  }
+  
+  a{
+	margin: auto;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+  }
+
+  .bottom{
+	border-bottom: 2px solid rgb(110, 110, 110);
+	padding-bottom: 2%;
+  }
