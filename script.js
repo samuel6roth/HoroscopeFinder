@@ -1,3 +1,4 @@
+  
 //declare global variables
 var parentEL = document.querySelector('.parentDiv');
 var parentEL2 = document.querySelector('.parentDiv2');
@@ -38,6 +39,8 @@ function getDaily(sign) {
     .then(function (data) {
       console.log(data.description)
       dailyDiv.innerHTML = data.description
+      document.getElementById("dailyDiv").style.display = "block";
+      document.getElementById("bottomTitle1").style.display = "block";
     })
     .catch(err => {
       console.error(err);
@@ -54,11 +57,9 @@ function getQuote() {
     .then(function (data) {
       // console.log(data);
       var j = Math.floor(Math.random() * 1643);
-      // var newSpan = document.createElement('span');
       newDiv.innerHTML = '"' + data[j].text + '"' + " - " + data[j].author
-      // newSpan.id = "newspan";
-      // newSpan.className = "newspan";
-      // newDiv.appendChild(newSpan);
+      document.getElementById("newDiv").style.display = "block";
+      document.getElementById("bottomTitle2").style.display = "block";
     })
 
 }
