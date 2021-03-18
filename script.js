@@ -1,23 +1,22 @@
-
 //declare global variables
 var parentEL = document.querySelector('.parentDiv');
 var parentEL2 = document.querySelector('.parentDiv2');
+var newDiv = document.querySelector('#newDiv')
+var dailyDiv = document.querySelector('#dailyDiv')
 // var dailyEL = document.querySelector()
 parentEL.addEventListener('click', runFn);
 parentEL2.addEventListener('click', runFn);
 //validate the target is not parent and parse the the element id
-function runFn(e){
-  if(e.target !== e.currentTarget) {
+function runFn(e) {
+  if (e.target !== e.currentTarget) {
     var clickedItem = e.target.dataset.id;
     console.log(e.target);
-    console.log('you clicked ', clickedItem )
+    console.log('you clicked ', clickedItem)
     getDaily(clickedItem)
+    getQuote()
   }
   e.stopPropagation();
 }
-
-
-
 
 
 //---------------------------------------------
@@ -38,17 +37,28 @@ function getDaily(sign) {
     })
     .then(function (data) {
       console.log(data.description)
+      dailyDiv.innerHTML = data.description
     })
     .catch(err => {
       console.error(err);
     });
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-  var elems = document.querySelectorAll('.datepicker');
-  var instances = M.Datepicker.init(elems);
-});
 
+function getQuote() {
 
+  fetch("https://type.fit/api/quotes")
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      // console.log(data);
+      var j = Math.floor(Math.random() * 1643);
+      // var newSpan = document.createElement('span');
+      newDiv.innerHTML = '"' + data[j].text + '"' + " - " + data[j].author
+      // newSpan.id = "newspan";
+      // newSpan.className = "newspan";
+      // newDiv.appendChild(newSpan);
+    })
 
-// funtion getQuote() 
+}
