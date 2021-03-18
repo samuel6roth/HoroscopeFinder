@@ -1,13 +1,13 @@
 # Horoscope Finder
 
 ```md
-GIVEN I need my zodiac sign to find my daily horoscope
+GIVEN I want to generate my daily horoscope based on my zodiac sign
+Given I want a daily quote to be generated upon zodiac sign selection
 WHEN I open the application "HoroscopeFinder"
-THEN the current day is displayed at the top of the application
-WHEN I input my birthday and year (stored in local storage)
-THEN I am presented with my zodiac sign with its corresponding image (API 1)
-WHEN I scroll down
-THEN my daily horoscope is displayed (API 2)
-WHEN I scroll down further
-THEN I can click a button to display my eastern zodiac sign (API 3)
+THEN todays date will be displayed at the top of the application
+WHEN I select my zodiac sign
+THEN I am presented with my daily horoscope (API 1)
+THEN I am presented with my daily quote (API 2)
+WHEN I scroll down to the footer bar
+Then I can select an About Me page
 ```
