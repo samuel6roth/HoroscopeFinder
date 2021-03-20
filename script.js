@@ -57,9 +57,15 @@ function getQuote() {
     .then(function (data) {
       // console.log(data);
       var j = Math.floor(Math.random() * 1643);
+      if (data[j].author==null){
+        newDiv.innerHTML = '"' + data[j].text + '"' + " - Anonymous"
+        console.log(data[j].author)
+       }else{
       newDiv.innerHTML = '"' + data[j].text + '"' + " - " + data[j].author
       document.getElementById("newDiv").style.display = "block";
       document.getElementById("bottomTitle2").style.display = "block";
+      console.log(data[j].author)
+       }
     })
 
 }
