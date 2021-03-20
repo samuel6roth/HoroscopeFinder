@@ -1,0 +1,60 @@
+html{
+    border: 10px double;
+    border-radius:12px;
+    margin:1%
+}
+body {
+    margin:3%;
+    background: rgb(43,43,43);
+    background: linear-gradient(0deg, rgba(43,43,43,1) 0%, rgba(195,195,195,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    padding-bottom:2%;
+  }
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+  
+.column {
+    
+    justify-content: space-around;
+   
+}
+img{
+    width: 22rem;
+    height: 18rem;
+    padding:0 2% 0 2%;
+}
+.aboutMeTextArea{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.aboutMeLinks{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+a{
+  font-size: 20px;  
+  font-style: italic;
+  font-weight: bold;
+  
+}
+.headhead{
+    background: rgb(43,43,43);
+	background: linear-gradient(0deg, rgba(43,43,43,1) 0%, rgba(195,195,195,1) 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.responsive-img{
+    
+    /* background: rgb(255 255 255 / 15%); */
+    
+}
