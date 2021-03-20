@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
 html{
     border: 10px double;
     border-radius:12px;
@@ -11,6 +13,8 @@ body {
     background-attachment: fixed;
     overflow-x: hidden;
     padding-bottom:2%;
+    font-family: "Muli","sans-serif";
+
   }
 .row {
     display: flex;
@@ -32,6 +36,10 @@ img{
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
+    background: rgb(255 255 255 / 15%);
+    border-radius: 12px;
+    padding: 20px;
+    font-family: "Muli","sans-serif";
 
 }
 .aboutMeLinks{
@@ -40,6 +48,8 @@ img{
     text-align: center;
     margin-top: 10%;
     margin-bottom: 5%;
+    font-family: "Muli","sans-serif";
+
 }
 a{
   font-size: 20px;  
