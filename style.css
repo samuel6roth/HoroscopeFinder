@@ -68,7 +68,7 @@ figure:hover+span {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	overflow-x: hidden;
-	height: 110vh;
+	padding-bottom:2%;
   }
   
   a{
