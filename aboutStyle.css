@@ -27,9 +27,10 @@ body {
     justify-content: space-around;
    
 }
+
 img{
-    width: 20%;
-    height: 20%;
+    width: 90%;
+    height: 130%;
     padding:0 2% 0 2%;
 }
 .aboutMeTextArea{
@@ -70,3 +71,15 @@ a{
     /* background: rgb(255 255 255 / 15%); */
     
 }
+
+.linked {
+    width: 20vw;
+    height: 10vw;
+    padding:0 2% 0 2%;
+    cursor: pointer;
+}
+
+img:hover {
+    /* background-color: rgb(174, 225, 235); */
+    transform: scale(0.90)
+  }
