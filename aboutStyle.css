@@ -13,7 +13,7 @@ body {
     background-attachment: fixed;
     overflow-x: hidden;
     padding-bottom:2%;
-    font-family: "Muli","sans-serif";
+    /* font-family: "Muli","sans-serif"; */
 
   }
 .row {
@@ -28,8 +28,8 @@ body {
    
 }
 img{
-    width: 22rem;
-    height: 18rem;
+    width: 20%;
+    height: 20%;
     padding:0 2% 0 2%;
 }
 .aboutMeTextArea{
@@ -53,18 +53,20 @@ img{
 }
 a{
   font-size: 20px;  
-  font-style: italic;
-  font-weight: bold;
+  /* font-style: italic; */
+  /* font-weight: bold; */
   
 }
 .headhead{
-    background: rgb(43,43,43);
-	background: linear-gradient(0deg, rgba(43,43,43,1) 0%, rgba(195,195,195,1) 100%);
+    /* background: rgb(43,43,43);
+	background: linear-gradient(0deg, rgba(43,43,43,1) 0%, rgba(195,195,195,1) 100%); */
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(13,89,130,1) 52%);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
-.responsive-img{
-    
+.aboutMePhotoArea{
+    margin-top: 8rem;
     /* background: rgb(255 255 255 / 15%); */
     
 }

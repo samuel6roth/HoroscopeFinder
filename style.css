@@ -142,7 +142,7 @@ figure:hover+span {
   
   header {
 	background: rgb(0,0,0);
-	background: linear-gradient(185deg, rgba(0,0,0,1) 0%, rgba(13,89,130,1) 52%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(13,89,130,1) 52%);
   }
 
   #dailyDivTitle{
