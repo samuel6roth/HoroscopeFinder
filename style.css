@@ -67,6 +67,8 @@ figure:hover+span {
 	background: linear-gradient(0deg, rgba(43,43,43,1) 0%, rgba(195,195,195,1) 100%);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	overflow-x: hidden;
+	height: 110vh;
   }
   
   a{
