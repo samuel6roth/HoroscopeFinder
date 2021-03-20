@@ -41,9 +41,9 @@ In order to acess and refractor the code you must first go through the Installat
 ​
 3) To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click "Use SSH", then click the clipboard icon. To clone a repository using GitHub CLI, click "Use GitHub CLI", then click the clipboard icon.
 ​
-4) Open Terminal and navigate to the directory where you want the repository to be 
+4) Open Terminal (Bash in Windows) and navigate to the directory where you want the repository to be 
 ​
-5) Type "git clone ", and then paste the SSH, CLI, or HTTPS link you coppied on GitHub and press ENTER 
+5) Type "git clone ", and then paste the SSH, CLI, or HTTPS link you coppied on GitHub and press ENTER.
 ​
 This should put a copy of the repository into the directory you had chosen in step 1
 ​
