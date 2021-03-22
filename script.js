@@ -21,7 +21,7 @@ let quoteArray=[
   {"sign": "Sagittarius","quote": 0}
   ]
   
-  for (x=0;x<=quoteArray.length;x++)
+  for (x=0;x<quoteArray.length;x++)
   {let j = Math.floor(Math.random() * 1643);
   quoteArray[x].quote=j}
   console.log(quoteArray)
