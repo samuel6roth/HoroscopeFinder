@@ -18,7 +18,7 @@ let quoteArray=[
   {"sign": "Virgo","quote": 0},
   {"sign": "Libra","quote": 0},
   {"sign": "Scorpio","quote": 0},
-  {"sign": "Saggittarius","quote": 0}
+  {"sign": "Sagittarius","quote": 0}
   ]
   
   for (x=0;x>=quoteArray.length;x++)
@@ -103,7 +103,7 @@ function getDaily(sign) {
       if (sign=="Scorpio"){
        j=quoteArray[10].quote
       }
-      if (sign=="Saggittarius"){
+      if (sign=="Sagittarius"){
         j=quoteArray[11].quote
       }
 
